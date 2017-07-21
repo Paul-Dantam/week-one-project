@@ -1,58 +1,26 @@
 <!-- Using semantic markup, write the HTML for all three pages.
 
-Home: The home page layout belongs in index.html.
 The title for the home page is "Bent Creek Ceramics".
-About: The about page layout belongs in about.html.
 The title for the about page is "Bent Creek Ceramics - About".
-Newsletter: The newsletter page layout belongs in newsletter.html.
 The title for the newsletter page is "Bent Creek Ceramics - Newsletter".
-Text content is provided in the attached project-text-content folder. -->
 
 
 
-<!-- The header/navigation component is always fixed to the top. Contents should scroll behind this component.
-Navigation links at the top should link to the corresponding pages in your project directory (paths may vary for each .html document).
+The header/navigation component is always fixed to the top. Contents should scroll behind this component.
 The currently visited page's navigation link should have an "active" state.
 Use flexbox for grid level layout.
-The text "dedicated environment" in the first paragraph of the about page is an inline link. It should link a user to the "Facilities" section below when clicked.
 The newsletter signup page has a minimum height of the viewport's height.
 The newsletter signup module is centered horizontally and vertically on the page.
-The "Name" input field on the newsletter page should have the type text.
-The "Email" input field on the newsletter page should have the type email. -->
 
 
 
-<!-- Bonus
+Bonus
 
 Create and apply a favicon.
 Use CSS only to make navigation links all caps.
 Apply a subtle drop shadow to the bottom of the header.
 Apply a subtle transition duration to hover and focus states
 Apply parallax scrolling to the background image in the "Room to Grow" section on the about page. When scrolled the image appears to stay stationary while the sections above and below scroll over. This can be done with with the css background and background-size properties.
-Add the id nameInput to the name input field in the newsletter page.
-Add the id emailInput to the email input field in the newsletter page.
-Add the id signupButton to the "Submit" button in the newsletter page.
-Include the following code snippet just before the closing body tag (</body>) in newsletter/index.html: 
-
-<script type="text/javascript">
-  var nameInput = document.getElementById('nameInput');
-  var emailInput = document.getElementById('emailInput');
-  var signupButton = document.getElementById('signupButton');
-  signupButton.addEventListener('click', function(e) {
-    var nameVal = nameInput.value;
-    var emailVal = emailInput.value;
-    if (nameVal && emailVal) {
-      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
-      nameInput.value = "";
-      emailInput.value = "";
-    } else {
-      alert('We would love for you to sign up, please provide both your name and email address.');
-    }
-  });
-</script>
-
-
-
 -->
 
 
@@ -92,13 +60,20 @@ Include the following code snippet just before the closing body tag (</body>) in
 
         <section class="product-display">
             <ul class="product-display">
-                <li>Endless Possibilities <img src="./images/product-1.jpg"></li>
-                <li>Sets <img src="./images/product-2.jpg"></li>
-                <li>Textures <img src="./images/product-3.jpg"></li>
-                <li>Tea Time <img src="./images/product-4.jpg"></li>
-                <li>Jars and Containers <img src="./images/product-5.jpg"></li>
-                <li>Wasabi and Saki <img src="./images/product-6.jpg"></li>
-                <li>Sippin' on Sunshine <img src="./images/product-7.jpg"></li>
+                <li>
+                    <p>Endless Possibilities</p> <img src="./images/product-1.jpg"></li>
+                <li>
+                    <p>Sets</p> <img src="./images/product-2.jpg"></li>
+                <li>
+                    <p>Textures</p> <img src="./images/product-3.jpg"></li>
+                <li>
+                    <p>Tea Time</p> <img src="./images/product-4.jpg"></li>
+                <li>
+                    <p>Jars and Containers</p> <img src="./images/product-5.jpg"></li>
+                <li>
+                    <p>Wasabi and Saki</p> <img src="./images/product-6.jpg"></li>
+                <li>
+                    <p>Sippin' on Sunshine</p> <img src="./images/product-7.jpg"></li>
             </ul>
 
         </section>
