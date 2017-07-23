@@ -51,6 +51,7 @@ header{
      width:100%; 
     position: fixed;
     top: 0;
+    z-index:100;
 }
 
 .nav-ul{
@@ -76,7 +77,6 @@ header{
 .title-content{
     display:flex;
     align-items: center;
-    /* height: 15rem; */
      flex-direction:column; 
 }
 
@@ -93,16 +93,17 @@ header{
 }
 
 .product-display{
-    /* height:50rem; */
-    /* display:flex; */
+    display:flex; 
     list-style:none;
     flex-shrink:1;
+    flex-wrap:wrap;
 }
 
 .image-flexer{
-       display:flex;   
-       flex-shrink:1;   
-        align-items:flex-end;
+    display:flex;   
+    flex-shrink:1;   
+    align-items:flex-end;
+    padding: 1rem;
 }
 
 
@@ -119,9 +120,8 @@ font-size:1rem;
 }
 
 h3 span { 
-   color: white; 
    background-color:#2B2F26;
-   padding: 10px; 
+    padding: 1rem;  
 }
 
 
@@ -129,9 +129,4 @@ footer{
 padding: 2.3rem; 
 color: #F2F1E8;
 background-color:#2B2F26;
-font
 }
-
-
-
-
