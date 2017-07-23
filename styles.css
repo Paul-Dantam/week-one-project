@@ -3,7 +3,7 @@ Text: #131511
 Inline Link: #968772
 Inline Link (Hover): #967343
 Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
+Navigation Text and Footer: #2B2F26
 Navigation Text (Hover): #CD5D67
 Navigation Text (Active) #968772
 Button Background: #968772
@@ -23,6 +23,11 @@ background-color:#F2F1E8;
 
 }
 
+img {
+  align-self: center;
+  max-width: 100%;
+}
+
 header{
     height:3rem;
 }
@@ -35,9 +40,7 @@ header{
      color:#2B2F26
 }
 
-.nav-item>a{
 
-}
 
 .nav-bar{
     display:flex;
@@ -52,13 +55,11 @@ header{
 
 .nav-ul{
     display:flex;
-      flex:1; 
+    flex:1; 
     list-style:none;
     justify-content:center;
     background-color:#FFFFFF;
     padding:0rem 5rem 0rem 5rem;
-
-    
 }
 
 #logo{
@@ -69,28 +70,68 @@ header{
 
 }
 
-#logo>img{
-}
 
-main{
-}
 
 
 .title-content{
     display:flex;
     align-items: center;
-    height: 15rem;
+    /* height: 15rem; */
      flex-direction:column; 
 }
 
 .us{
-    /* margin-top: 2rem; */
     font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .motto{
-    font-size: 3rem;
+    font-size: 2.7rem;
+    margin: 0;
+    font-weight:200;
 }
+
+.product-display{
+    /* height:50rem; */
+    /* display:flex; */
+    list-style:none;
+    flex-shrink:1;
+}
+
+.image-flexer{
+       display:flex;   
+       flex-shrink:1;   
+        align-items:flex-end;
+}
+
+
+.prod-1{
+    position:relative;
+}
+
+h3{
+position:absolute;
+padding-bottom: 2.8rem;
+color:#F2F1E8;
+font-weight:400;
+font-size:1rem;
+}
+
+h3 span { 
+   color: white; 
+   background-color:#2B2F26;
+   padding: 10px; 
+}
+
+
+footer{
+padding: 2.3rem; 
+color: #F2F1E8;
+background-color:#2B2F26;
+font
+}
+
 
 
 
