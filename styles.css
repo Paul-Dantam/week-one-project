@@ -15,6 +15,7 @@ Input Border Bottom (Focus): #967343 */
 /* font-family: 'Merriweather', serif;
  font-family: 'Roboto', sans-serif;  */
 
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Universal and Navbar~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 body{
 background-color:#F2F1E8;
@@ -70,12 +71,17 @@ main{
 }
 
 a:hover{
-    color:#CD5D67;
+     color:#CD5D67;
 }
 
 a:active{
-    color:#968772;
+     color:#968772;
 }
+
+.current{
+     color:#968772;
+}
+
 
 
 
@@ -84,6 +90,11 @@ a:active{
     height: 2.7rem;
     padding:.5rem;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Navbar~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Title and Motto~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 
 .title-content{
     display:flex;
@@ -103,12 +114,14 @@ a:active{
     font-weight:200;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Flexbox Grid~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .product-display1{
     display: flex;
     justify-content: flex-start;
-    height:28rem;
+    height:23rem;
     overflow:hidden;
-    flex:1;
+    /* flex:1; */
     padding:.5rem;
 }
 
@@ -116,7 +129,7 @@ a:active{
     margin-top:.5rem;
     display: flex;
     justify-content: flex-start;
-    height:13rem;
+    height:12.5rem;
     overflow:hidden; 
     margin-bottom:1rem;
     padding: .5rem;
@@ -163,8 +176,6 @@ a:active{
      padding:.5rem;
  }    
 
-
-
 h3{
     color:#F2F1E8;
     font-weight:400;
@@ -177,7 +188,87 @@ span {
     background-color:#2B2F26;
     padding: 1rem;  
 }
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Indexpage Flexbox Grid~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start Newsletter CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.newsletter-flexbox{
+    display:flex;
+    min-height:100vh;
+    background-image: url("./images/background-2.jpg");
+    justify-content: center; 
+    align-items: center;
+}
+
+.card{
+    display:flex;  
+    flex-direction:column;
+    height: 60vh;
+    width: 50vw;
+    background-color:#FFFFFF;
+    justify-content:space-around;
+    padding:1rem;
+    align-items:center;
+}
+
+
+.signup{
+    font-size: 1.7rem;
+    font-weight:200;
+}
+
+.offers{
+    font-size: 1.2rem;
+    font-weight:400;
+
+}
+
+#nameInput{
+    font-size:1.3rem;
+    color:#968772;
+    border-width: 0px 0px 2px 0px;
+    border-color:#968772;
+    margin:1rem;
+    width:100%;
+}
+
+#nameInput:focus{
+    border-bottom-color: #967343;
+}
+
+#emailInput{
+    font-size:1.3rem;
+    color:#968772;
+    border-width: 0px 0px 2px 0px;
+    border-color:#968772;
+    margin:1rem;
+    width: 100%;
+}
+
+#emailInput:focus{
+    border-bottom-color: #967343;
+}
+
+#signupButton{
+    background-color:#968772;
+    color:#F2F1E8;
+    font-size:1.2rem;
+    border-style:none;
+    padding:1.3rem 3rem 1.3rem 3rem;
+    margin: 1rem;
+    max-width: 20rem;
+}
+
+#signupButton:hover{
+    color:#FFFFFF;
+    background-color:#967343;
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Newsletter CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer for Index and About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 footer{
 padding: 2.3rem; 
