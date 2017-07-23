@@ -20,16 +20,24 @@ body{
 background-color:#F2F1E8;
   margin:auto;
   font-family: 'Merriweather', serif;
-
+   box-sizing: border-box; 
+  
 }
 
 img {
-  align-self: center;
-  max-width: 100%;
+     align-self: center;  
+     max-width: 100%;   
+    object-fit: contain;  
+     position:relative;  
 }
 
 header{
-    height:3rem;
+     height:3rem;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
 }
 
 .nav-item{
@@ -37,10 +45,8 @@ header{
      text-transform:uppercase;
      font-family: 'Roboto', sans-serif;
      padding-top:.2rem;
-     color:#2B2F26
+      color:#2B2F26 
 }
-
-
 
 .nav-bar{
     display:flex;
@@ -63,21 +69,26 @@ header{
     padding:0rem 5rem 0rem 5rem;
 }
 
-#logo{
-    justify-content:flex-start;
-    height: 2.7rem;
-    padding:.5rem;
+a:hover{
+    color:#CD5D67;
+}
 
-
+a:active{
+    color:#968772;
 }
 
 
 
+#logo{
+    justify-content:flex-start;
+    height: 2.7rem;
+    padding:.5rem;
+}
 
 .title-content{
     display:flex;
     align-items: center;
-     flex-direction:column; 
+    flex-direction:column; 
 }
 
 .us{
@@ -92,35 +103,78 @@ header{
     font-weight:200;
 }
 
-.product-display{
-    display:flex; 
-    list-style:none;
-    flex-shrink:1;
-    flex-wrap:wrap;
+.product-display1{
+    display: flex;
+    justify-content: flex-start;
+    height:28rem;
+    overflow:hidden;
+    flex:1;
+    padding:.5rem;
 }
 
+.product-display2{
+    margin-top:.5rem;
+    display: flex;
+    justify-content: flex-start;
+    height:13rem;
+    overflow:hidden; 
+    margin-bottom:1rem;
+    padding: .5rem;
+}
+ 
 .image-flexer{
-    display:flex;   
-    flex-shrink:1;   
-    align-items:flex-end;
-    padding: 1rem;
+    display:flex;      
+    align-items:flex-end; 
+  
+} 
+ 
+  .prod1{
+      flex-basis:60%;  
+      padding:.5rem;
 }
 
-
-.prod-1{
-    position:relative;
+.prod2{
+      flex-basis:20%;
+      padding:.5rem;
 }
+
+.prod3{
+     flex-basis:20%; 
+     padding:.5rem;
+}
+
+.prod4{
+     flex-basis: 20%; 
+     padding:.5rem;
+}
+
+.prod5{
+     flex-basis: 20%;
+     padding:.5rem;
+}
+
+.prod6{
+     flex-basis: 40%; 
+     padding:.5rem;
+}
+
+.prod7{
+     flex-basis: 20%; 
+     padding:.5rem;
+ }    
+
+
 
 h3{
-position:absolute;
-padding-bottom: 2.8rem;
-color:#F2F1E8;
-font-weight:400;
-font-size:1rem;
+    color:#F2F1E8;
+    font-weight:400;
+    font-size:1rem;
+    position:absolute;   
+    z-index: 1;    
 }
 
-h3 span { 
-   background-color:#2B2F26;
+span { 
+    background-color:#2B2F26;
     padding: 1rem;  
 }
 
@@ -129,4 +183,5 @@ footer{
 padding: 2.3rem; 
 color: #F2F1E8;
 background-color:#2B2F26;
+width:100%
 }
