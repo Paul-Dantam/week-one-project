@@ -270,9 +270,9 @@ span {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
  .newsletter{
-     line-height:2.8rem;
-     width:100%;
-      /* overflow:hidden;  */
+    line-height:2.8rem;
+    width:100%;
+    /* overflow:hidden;   */
      /* display:flex; */
      /* flex-direction:column; */
  }
@@ -295,10 +295,6 @@ span {
 }
 
 
-.floater{
-
-}
-
 .dedicate{
     margin-bottom:2rem;
 }
@@ -315,19 +311,81 @@ span {
     float:left;
 }
 
-.history{
+.leader{
     font-size:2rem;
     font-weight:200;
-    padding:2rem 0rem 2rem 0rem;
+    width:100%;
+    padding: 1rem;
+
+}
+
+.cropper{
+    max-height:22rem;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
 }
 
 .centerpiece{
     width:100%;
-    overflow:hidden;
+    align-self:center;
+    transform:translateY(15%)
+}
+
+.centertext{
+    align-self:center;
+    font-size:5rem;
+    color: #F2F1E8;
+    position:absolute;
+}
+
+.closing{
+    display:flex;
+    margin:1rem 10rem 0rem 20rem;
+    flex-direction:row; 
+    flex-wrap:wrap;
+    /* height:50rem; */
+    /* width:100%; */
+    /* overflow:hidden; */
+
+}
+
+.facility{
+    max-width:60%;
 }
 
 
+.shelf{
+height:7rem;
+}
 
+
+table{
+    border-collapse:collapse;
+    margin-bottom: 5rem;
+}
+
+
+tr, td{
+    border-style:solid;
+    padding:1rem;   
+}
+
+.th{
+    text-align:center;
+}
+
+.evens{
+    background-color:#f9d3b3;
+}
+
+
+aside{
+    font-size:.8rem;
+    width:18%;
+    padding:1rem;
+    line-height:1.5rem;
+}
 
 
 
