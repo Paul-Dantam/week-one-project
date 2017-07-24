@@ -125,6 +125,8 @@ a:active{
     padding:.5rem;
 }
 
+
+
 .product-display2{
     margin-top:.5rem;
     display: flex;
@@ -135,11 +137,6 @@ a:active{
     padding: .5rem;
 }
  
-.image-flexer{
-    display:flex;      
-    align-items:flex-end; 
-  
-} 
  
 .prod1{
       flex-basis:60%;  
@@ -180,15 +177,19 @@ h3{
     color:#F2F1E8;
     font-weight:400;
     font-size:1rem;
-    position:absolute;
-    /* bottom: 0;  */
-    z-index: 1;    
+     position:absolute;   
+     z-index: 1;     
 }
 
 span { 
     background-color:#2B2F26;
-    padding: 1rem;  
+    padding: 1rem; 
+    margin:1rem;
 }
+
+
+
+
  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Indexpage Flexbox Grid~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start Newsletter CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
