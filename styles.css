@@ -29,7 +29,7 @@ img {
     align-self: center;  
     max-width: 100%;    
     object-fit: contain;  
-    position:relative;  
+    position:relative;
 }
 
 header{
@@ -141,7 +141,7 @@ a:active{
   
 } 
  
-  .prod1{
+.prod1{
       flex-basis:60%;  
       padding:.5rem;
 }
@@ -180,7 +180,8 @@ h3{
     color:#F2F1E8;
     font-weight:400;
     font-size:1rem;
-    position:absolute;   
+    position:absolute;
+    /* bottom: 0;  */
     z-index: 1;    
 }
 
