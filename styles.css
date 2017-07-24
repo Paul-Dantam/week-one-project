@@ -18,18 +18,18 @@ Input Border Bottom (Focus): #967343 */
  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Universal and Navbar~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 body{
-background-color:#F2F1E8;
-  margin:auto;
-  font-family: 'Merriweather', serif;
-   box-sizing: border-box; 
+    background-color:#F2F1E8;
+    margin:auto;
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box; 
   
 }
 
 img {
-     align-self: center;  
-     max-width: 100%;   
+    align-self: center;  
+    max-width: 100%;    
     object-fit: contain;  
-     position:relative;  
+    position:relative;  
 }
 
 header{
@@ -266,7 +266,74 @@ span {
 
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Newsletter CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Newsletter~~~~~`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+ .newsletter{
+     line-height:2.8rem;
+     width:100%;
+      /* overflow:hidden;  */
+     /* display:flex; */
+     /* flex-direction:column; */
+ }
+
+.opener{
+    display:flex;
+    margin:5rem 20rem 5rem 20rem;
+     flex-direction:row; 
+      flex-wrap:wrap;  
+     /* position:relative;  */
+}
+
+
+.community{
+    text-align: center;
+    font-size: 4rem;
+    padding: 3rem;
+    font-weight:350;
+    margin-top:2rem;
+}
+
+
+.floater{
+
+}
+
+.dedicate{
+    margin-bottom:2rem;
+}
+
+.mission-statement{
+    font-style:italic;
+    border-left:2px solid #968772;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.birdhouse{
+    height:8rem;
+    width:12rem;
+    float:left;
+}
+
+.history{
+    font-size:2rem;
+    font-weight:200;
+    padding:2rem 0rem 2rem 0rem;
+}
+
+.centerpiece{
+    width:100%;
+    overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer for Index and About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -274,5 +341,5 @@ footer{
 padding: 2.3rem; 
 color: #F2F1E8;
 background-color:#2B2F26;
-width:100%
+width:100%;
 }
