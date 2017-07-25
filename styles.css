@@ -59,6 +59,7 @@ main{
     position: fixed;
     top: 0;
     z-index:100;
+    box-shadow: 0px 1px 6px lightgray;
 }
 
 .nav-ul{
@@ -70,16 +71,20 @@ main{
     padding:0rem 5rem 0rem 5rem;
 }
 
+
+
 a:hover{
+    transition: all 1s ease;
      color:#CD5D67;
 }
 
 a:active{
+    transition: all 1s ease;
      color:#968772;
 }
 
 .current{
-     color:#968772;
+    color:#968772;
 }
 
 
@@ -278,9 +283,6 @@ a:active{
  .newsletter{
     line-height:2.8rem;
     width:100%;
-    /* overflow:hidden;   */
-     /* display:flex; */
-     /* flex-direction:column; */
  }
 
 .opener{
@@ -288,7 +290,7 @@ a:active{
     margin:5rem 20rem 5rem 20rem;
      flex-direction:row; 
       flex-wrap:wrap;  
-     /* position:relative;  */
+      position:relative;  
 }
 
 
@@ -324,25 +326,27 @@ a:active{
     padding: 1rem;
 
 }
-
-.cropper{
-    max-height:22rem;
-    overflow:hidden;
+ 
+ .cropper{
     display:flex;
     justify-content:center;
-}
-
-.centerpiece{
+    align-items:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width:100%;
-    align-self:center;
-    transform:translateY(15%)
-}
+    background-image:url("./images/background-3.jpg");
+    height:30vh;
+
+}  
+
+
 
 .centertext{
-    align-self:center;
     font-size:5rem;
     color: #F2F1E8;
-    position:absolute;
+
 }
 
 .closing{
