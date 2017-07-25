@@ -29,7 +29,7 @@ img {
     align-self: center;  
     max-width: 100%;    
     object-fit: contain;  
-    position:relative;
+    position:relative;  
 }
 
 header{
@@ -118,74 +118,78 @@ a:active{
 
 .product-display1{
     display: flex;
-    justify-content: flex-start;
-    height:23rem;
-    overflow:hidden;
-    /* flex:1; */
-    padding:.5rem;
+    height:55vh;
+    padding: .8rem;
 }
-
-
 
 .product-display2{
-    margin-top:.5rem;
     display: flex;
-    justify-content: flex-start;
-    height:12.5rem;
-    overflow:hidden; 
-    margin-bottom:1rem;
-    padding: .5rem;
-}
- 
- 
-.prod1{
-      flex-basis:60%;  
-      padding:.5rem;
+    height:35vh;
+    padding: .8rem;
 }
 
-.prod2{
-      flex-basis:20%;
-      padding:.5rem;
+.image-flexer{
+    display:flex;
+    margin:.5rem;
+
 }
 
-.prod3{
-     flex-basis:20%; 
-     padding:.5rem;
-}
-
-.prod4{
-     flex-basis: 20%; 
-     padding:.5rem;
-}
-
-.prod5{
-     flex-basis: 20%;
-     padding:.5rem;
-}
-
-.prod6{
-     flex-basis: 40%; 
-     padding:.5rem;
-}
-
-.prod7{
-     flex-basis: 20%; 
-     padding:.5rem;
- }    
-
-h3{
+.prodname{
     color:#F2F1E8;
     font-weight:400;
     font-size:1rem;
-     position:absolute;   
-     z-index: 1;     
-}
-
-span { 
     background-color:#2B2F26;
     padding: 1rem; 
-    margin:1rem;
+     margin:1rem; 
+    align-self:flex-end;
 }
+
+ 
+.prod1{
+     background-image:url("./images/product-1.jpg"); 
+    background-size:cover;
+    flex:3;
+}
+
+.prod2{
+    background-image:url("./images/product-2.jpg");
+     background-size:cover;
+    flex:1;
+}
+
+.prod3{
+    background-image:url("./images/product-3.jpg");
+    background-size:cover;
+    flex:1;
+}
+
+.prod4{
+    background-image:url("./images/product-4.jpg");
+    background-size:cover;
+    flex:1;
+}
+
+.prod5{
+    background-image:url("./images/product-5.jpg");
+    background-size:cover;
+    flex:1;
+}
+
+.prod6{
+    background-image:url("./images/product-6.jpg");
+    background-size:cover;
+    flex:2;
+}
+
+.prod7{
+    background-image:url("./images/product-7.jpg");
+    background-size:cover;
+    flex:1;
+ }    
+
+
+
+
 
 
 
